@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>halaman utama</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="Css/Login.css">
+    <link rel="stylesheet" href="Css/formlogin.css">
+    <link rel="stylesheet" href="Css/footer.css">
+    <link rel="stylesheet" href="Css/utama.css">
+  </head>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<div class="body">
+    <nav data-aos="fade-down" data-aos-duration="1000" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <p><a href="Garis3.html"><i class="fa-solid fa-bars" style="color: black;"></i></a> MUSICbox</p>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right" style="float: right;">
+            <li><a href="#myPage">sreach</a></li>
+            <li><a href="#categories">categories</a></li>
+            <li><a href="Download.html">download</a></li>
+            <li><a href="#footer">contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="pencarian text-center">
+        <h1>MUSICbox</h1> 
+        <p>search music</p> 
+        <form>
+          <div class="input-group">
+            <input type="text" class="form-control" size="50" placeholder="Search" required>
+            <div class="input-group-btn">
+              <button type="button" class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+          </div>
+        </form>
+
+        <div class="categories" id="categories">
+            <h1>CATEGORIES</h1>
+                    <div class="boxcategori">
+                        <div class="perBox">
+                            <a href="C_Hiphop.html"><img src="Gambar/hiphop.jpg" alt="hiphop">
+                            <h5>HIPHOP</h5></a>
+                        </div>
+        
+                        <div class="perBox">
+                            <a href="C_Rock.html"><img src="Gambar/rock.jpg" alt="">
+                            <h5>ROCK</h5></a>
+                        </div>
+        
+                        <div class="perBox">
+                            <a href="C_Pop.html"><img src="Gambar/pop.png" alt="">
+                            <h5>POP</h5></a>
+                        </div>
+      
+                        <div class="perBox">
+                            <a href="C_Remix.html"><img src="Gambar/elektrik.jpg" alt="">
+                            <h5>REMIX</h5></a>
+                        </div>
+                        <div class="perBox">
+                            <a href="C_Dangdut.html"><img src="Gambar/dangdt.jpg" alt="">
+                            <h5>DANGDUT</h5></a>
+                        </div>
+                        <div class="perBox">
+                            <a href="C_Reggae.html"><img src="Gambar/reggae.jpg" alt="">
+                            <h5>REGGAE</h5></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+</div>
+<img src="Gambar/musik.jpeg" alt="musik" style="width: 100%; padding-bottom: none;">
+<!-- contact -->
+<footer id="footer">
+  <div class="footer-container">
+    <div class="col-4 footer-col">
+      <h3>MUSICbox</h3>
+      <ul>
+        <li><i class="fa-solid fa-location-dot"></i>Location</li>
+        <li>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.861398206363!2d115.15946431416643!3d-8.799089692389373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd244c13ee9d753%3A0x6c05042449b50f81!2sBali%20State%20Polytechnic!5e0!3m2!1sen!2sid!4v1607311171408!5m2!1sen!2sid" width="350" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </li>
+        <li><a href="#"><i class="fa-solid fa-envelope"></i>MUSICbox@gmail.com</a></li>
+        <li><a href="#"><i class="fa-solid fa-phone"></i>08** **** ****</a></li>
+      </ul>
+    </div>
+    <div class="col-3 footer-col">
+      <h3>FOLLOW US</h3>
+      <li><a href="#"><i class="fa-brands fa-facebook"></i>MUSICbox_official</a></li>
+      <li><a href="#"><i class="fa-brands fa-instagram"></i>MUSICbox_official</a></li>
+      <li><a href="#"><i class="fa-brands fa-youtube"></i>MUSICbox_official</a></li>
+      <li><a href="#"><i class="fa-brands fa-twitter"></i>MUSICbox_official</a></li>
+    </div>
+    <div class="col-6 footer-col">
+      <h3>MASUKKAN</h3>
+      <form>
+        <div class="form-group">
+          Nama <br><input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="form-group">
+          Email <br><input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+        <div class="form-group">
+          Comment <br><textarea  id="comments" name="comments" placeholder="Comment" rows="5" ></textarea>
+        </div>
+        <button type="submit">Kirim</button>
+      </form>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>copyright by deaaa</p>
+  </div>
+</footer>
+</div>
+
+<script src="js/bootstrap.js"></script>
+
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+</script>
+
+<!-- script animasi -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>

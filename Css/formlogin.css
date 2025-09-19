@@ -1,0 +1,18 @@
+.row{
+	background-size: cover;
+	text-align: left;
+	justify-content: center;
+	justify-items: center;
+}
+.form-label{
+	color: #ffffff;
+}
+.border-top{
+	color: rgb(255, 255, 255);
+}
+.border-bottom{
+	color: rgb(40, 27, 27);
+}
+.login{
+	color: blue;
+}

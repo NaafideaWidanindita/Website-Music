@@ -1,0 +1,29 @@
+body{
+    background-image: url(Gambar/login.jpg);
+    background-size: cover;
+}
+.pengaturan{
+    font-family: Montserrat, sans-serif;
+    margin-bottom: none;
+    margin-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.pilih{
+    display: flex;
+    list-style: none;
+    height: 60px;
+    background-color: #ffffff6a;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+}
+.pilih p{
+    padding-top: 13px;
+    color: rgb(0, 0, 0);
+}
+.pilih p :hover{
+    list-style: none;
+}

@@ -1,0 +1,82 @@
+.download{
+    margin-bottom: 15px;
+    margin-top: 65px;
+    padding-right: 20px;
+}
+.nama_categori{
+    display: flex;
+    height: 150px;
+    background-image: url(Gambar/Gambar1.jpg);
+    background-size: cover;
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+}
+.nama_categori p{
+    padding-top: 40px;
+    color: rgb(255, 255, 255);
+}
+.do1{
+    display: flex;
+    height: 70px;
+    background-color: rgba(59, 80, 188, 0.928);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.do1 p{
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-left: 30px;
+}
+.do1 i{
+    margin-left: 10px;
+}
+.music{
+    display: flex;
+    height: 100px;
+    background-color: rgba(167, 160, 160, 0.8);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.music img{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 80px;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+}
+.nama_lagu{
+    display: flex;
+    margin-left: 30px;
+}
+.nama_lagu h2{
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.nama_lagu h5{
+    margin-top: 0px;
+}
+.audio-player1{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 190px;
+}
+.audio-player2{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 82px;
+}
+.audio-player3{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 135px;
+}
+.music i{
+    margin-left: 20px;
+    margin-top: 50px;
+}

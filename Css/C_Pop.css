@@ -1,0 +1,112 @@
+.Pop{
+    margin-bottom: 15px;
+    margin-top: 65px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nama_categori{
+    display: flex;
+    height: 150px;
+    background-image: url(Gambar/Gambar3.jpg);
+    background-size: cover;
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+}
+.nama_categori p{
+    padding-top: 40px;
+    color: rgb(255, 255, 255);
+}
+.music{
+    display: flex;
+    height: 100px;
+    background-color: rgba(167, 160, 160, 0.8);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.music img{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 80px;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+}
+.nama_lagu{
+    display: flex;
+    margin-left: 30px;
+}
+.nama_lagu1{
+    display: flex;
+    margin-left: 35px;
+}
+.nama_lagu h2{
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.nama_lagu1 h2{
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.nama_lagu h5{
+    margin-top: 0px;
+}
+.audio-player1{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 185px;
+}
+.audio-player2{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 135px;
+}
+.audio-player3{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 170px;
+}
+.audio-player4{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 275px;
+}
+.audio-player5{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 245px;
+}
+.audio-player6{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 140px;
+}
+.audio-player7{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 190px;
+}
+.audio-player8{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 303px;
+}
+.audio-player9{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 115px;
+}
+.audio-player10{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 205px;
+}
+.download{
+    margin-top: 45px;
+    margin-left: 20px;
+    height: 100%;
+    color: rgb(0, 0, 0);
+}

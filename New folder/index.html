@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>halaman login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="Css/Login.css">
+    <link rel="stylesheet" href="Css/formlogin.css">
+    <link rel="stylesheet" href="Css/footer.css">
+  </head>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<div class="body">
+    <nav data-aos="fade-down" data-aos-duration="1000" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <p> MUSICbox</p>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right" style="float: right;">
+            <li></li>
+            <li><a href="#footer">contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<div class="jumbotron text-center">
+  <div class="container-fluid vh-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-lg-4 col-md-8 col-sm-10 col-10 border rounded-3 shadow-lg">
+            <!-- bagian judul -->
+            <div>
+                <h2 class="text-center py-3">Form Login</h2>
+            </div>
+
+<form class="text center">
+    <div class="mx-3">
+
+        <div class="mb-3">
+              <label class="form-label" name="">Email</label>
+              <input type="email" class="form-control" placeholder="Masukan Email Anda">
+        </div>
+
+        <div class="mb-3">
+              <label class="form-label">Password</label>
+              <input type="password" class="form-control" placeholder="Masukan Password Anda">
+        </div>
+
+        <div class="mb-3">
+              <label class="form-label">Nama Lengkap</label>
+              <input type="text" class="form-control" placeholder="Masukan Nama Lengkap Anda">
+        </div>
+
+        <div class="mb-3">
+        <label class="form-label">Tanggal Lahir:</label>
+        <input type="date" name="tanggal" class="form-control" placeholder="Masukan Tanggal Lahir Anda">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Jenis kelamin</label>
+              <input list="jenis" name="jenis"class="form-control" placeholder="Masukan Jenis Kelamin">
+            <datalist id="jenis">
+            <option value="Laki-Laki">
+            <option value="perempuan">
+            </datalist>
+        </div>
+        
+        <div class="mb-3">
+          <label class="form-label">Pekerjaan</label>
+          <select name="Hobi" class="form-control" >
+              <option value="Pilih Hobi Anda">Pilih Pekerjaan Anda</option>
+              <option></option>
+              <option value="pelajar">Pelajar</option>
+              <option value="swasta">Kariawan Swasta</option>
+              <option value="pns">PNS</option>
+              <option value="ibu">IRT</option>
+              <option value="lainnya">Lainnya</option>
+          </select>
+          </div>
+    </div>
+    <br>
+    <!-- bagian tombol -->
+    <div class="mx-3 d-flex text-center">
+      <a href="#" class="bn-tombol btn btn-danger w-50 me-2" type="reset">Cancel</a>
+      <a href="utama.html" class="bn-tombol btn w-50 ms-2" type="Submit" style="background: blue; color: white;">Login</a>
+      <br>
+      <a href="#" class="mx-3 d-flex text-center" style="color: blue;">Lupa Password?</a>
+    </div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+<img src="Gambar/musik.jpeg" alt="musik" style="width: 100%; padding-bottom: none;">
+<!-- contact -->
+<footer id="footer">
+  <div class="footer-container">
+    <div class="col-4 footer-col">
+      <h3>MUSICbox</h3>
+      <ul>
+        <li><i class="fa-solid fa-location-dot"></i>Location</li>
+        <li>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.861398206363!2d115.15946431416643!3d-8.799089692389373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd244c13ee9d753%3A0x6c05042449b50f81!2sBali%20State%20Polytechnic!5e0!3m2!1sen!2sid!4v1607311171408!5m2!1sen!2sid" width="350" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </li>
+        <li><a href="#"><i class="fa-solid fa-envelope"></i>MUSICbox@gmail.com</a></li>
+        <li><a href="#"><i class="fa-solid fa-phone"></i>08** **** ****</a></li>
+      </ul>
+    </div>
+    <div class="col-3 footer-col">
+      <h3>FOLLOW US</h3>
+      <li><a href="#"><i class="fa-brands fa-facebook"></i>MUSICbox_official</a></li>
+      <li><a href="#"><i class="fa-brands fa-instagram"></i>MUSICbox_official</a></li>
+      <li><a href="#"><i class="fa-brands fa-youtube"></i>MUSICbox_official</a></li>
+      <li><a href="#"><i class="fa-brands fa-twitter"></i>MUSICbox_official</a></li>
+    </div>
+    <div class="col-6 footer-col">
+      <h3>MASUKKAN</h3>
+      <form>
+        <div class="form-group">
+          Nama <br><input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="form-group">
+          Email <br><input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+        <div class="form-group">
+          Comment <br><textarea  id="comments" name="comments" placeholder="Comment" rows="5" ></textarea>
+        </div>
+        <button type="submit">Kirim</button>
+      </form>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>copyright by deaaa</p>
+  </div>
+</footer>
+</div>
+<script src="js/bootstrap.js"></script>
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+</script>
+
+<!-- script animasi -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+.pencarian {
+    background-image: url(Gambar/login.jpg);
+    color: #fff;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+  }
+.pencarian form{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.btn{
+    background-color: rgb(45, 74, 126);
+    color: #fff;
+}
+.categories{
+    margin-top: 100px;
+}
+  
+  .categories .boxcategori {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+  
+  .categories .boxcategori .perBox {
+    position: relative;
+    margin: 10px;
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .categories .boxcategori .perBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+  }
+  
+  .categories .boxcategori .perBox h3 {
+    position: absolute;
+    bottom: -8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    left: 0;
+    padding-left: 5px;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    background-color: #0069d9;
+    font-size: 1rem;
+  }
+  
+  .categories .boxcategori .perBox:hover img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  .boxcategori {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .perBox {
+    position: relative;
+    margin: 10px;
+    width: 200px;
+  }
+  
+  .perBox img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .perBox h5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.127);
+    padding: 10px;
+    width: 100%;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  
+  .perBox:hover h5 {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.775);
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+  }
+  
